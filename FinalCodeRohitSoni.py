@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import joblib
 
+pip install joblib
+
 # Load the trained pipeline
 rf_model = joblib.load("/Users/rohitsoni/Downloads/random_forest1_model.joblib")
 
